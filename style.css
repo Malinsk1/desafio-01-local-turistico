@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --background: #f5f4f0;
+  --border: #d9d9d9;
+
+  --text-primary: #1b1b1b;
+  --text-secondary: #333333;
+  --text-tertiary: #696969;
+  --text-headline: #e1624f;
+
+  --accent-blue: #0c51a7;
+  --accent-orange: #e95e10;
+  --accent-pink: #e5245e;
+  --accent-purple: #591b98;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--background);
+}
+
+#page {
+  width: 112rem;
+  margin: 8.8rem auto;
+}
+
+img {
+  width: 100%;
+}
+
+.text-headline {
+  color: var(--text-headline);
+  font-weight: 700;
+  line-height: 2.2rem;
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--text-primary);
+}
+
+p,
+main span,
+section,
+footer {
+  line-height: 2.2rem;
+  color: var(--text-secondary);
+}
+
+header h1 {
+  font-size: 3.6rem;
+  line-height: 4.9rem;
+  margin-bottom: 4rem;
+}
+
+header img {
+  margin-bottom: 2.4rem;
+}
+
+header p {
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 4.4rem;
+}
+
+.divisor {
+  border: 1px solid var(--border);
+}
+
+main {
+  margin-top: 6.4rem;
+}
+
+main .text-headline {
+  margin-bottom: 0.2rem;
+}
+
+main h2 {
+  margin-bottom: 0.8rem;
+  font-size: 3.2rem;
+  line-height: 4.4rem;
+}
+
+main > p {
+  margin-bottom: 6.4rem;
+}
+
+main .card-content img {
+  margin-bottom: 2rem;
+}
+
+main .card-content h3 {
+  font-size: 2.8rem;
+  line-height: 3.8rem;
+  margin-bottom: 0.4rem;
+}
+
+main .card-content p {
+  margin-bottom: 2.4rem;
+}
+
+main .card-content span {
+  font-weight: 700;
+  line-height: 2.2rem;
+}
+
+main .card-content ul {
+  color: var(--accent-blue);
+  line-height: 2.2rem;
+  font-weight: 700;
+
+  padding-left: 2rem;
+  margin-bottom: 4.8rem;
+}
+
+main .card-content .purple {
+  color: var(--accent-purple);
+}
+
+main .card-content .pink {
+  color: var(--accent-pink);
+}
+
+main .card-content .orange {
+  color: var(--accent-orange);
+}
+
+section {
+  line-height: 2.2rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+footer img {
+  width: 1.6rem;
+  height: 1.6rem;
+  vertical-align: middle;
+}
+
+footer {
+  text-align: center;
+  margin-top: 6.5rem;
+  line-height: 150%;
+}
